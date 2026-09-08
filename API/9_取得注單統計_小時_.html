@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>9.取得注單統計(小時)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/9_取得注單統計_小時_/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/9_取得注單統計_小時_/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u792" class="ax_default _文本段落">
+        <div id="u792_div" class=""></div>
+        <div id="u792_text" class="text ">
+          <p><span>參考JILI的3.1.14取得注單統計</span></p><p><span>只用時間查詢，不查單一遊戲</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u793" class="ax_default _图片_">
+        <img id="u793_img" class="img " src="images/9_取得注單統計_小時_/u793.png"/>
+        <div id="u793_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u794" class="ax_default _图片_">
+        <img id="u794_img" class="img " src="images/9_取得注單統計_小時_/u794.png"/>
+        <div id="u794_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u795" class="ax_default _二级标题">
+        <div id="u795_div" class=""></div>
+        <div id="u795_text" class="text ">
+          <p><span>取得注單統計</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u796" class="ax_default line">
+        <img id="u796_img" class="img " src="images/更新項目/u1.svg"/>
+        <div id="u796_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u797" class="ax_default _三级标题">
+        <div id="u797_div" class=""></div>
+        <div id="u797_text" class="text ">
+          <p><span>GET</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u798" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u799" class="ax_default table_cell">
+          <img id="u799_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u799_text" class="text ">
+            <p><span>參數</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u800" class="ax_default table_cell">
+          <img id="u800_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u800_text" class="text ">
+            <p><span>類型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u801" class="ax_default table_cell">
+          <img id="u801_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u801_text" class="text ">
+            <p><span>是否必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u802" class="ax_default table_cell">
+          <img id="u802_img" class="img " src="images/1_建立玩家/u248.png"/>
+          <div id="u802_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u803" class="ax_default table_cell">
+          <img id="u803_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u803_text" class="text ">
+            <p><span>start_time</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u804" class="ax_default table_cell">
+          <img id="u804_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u804_text" class="text ">
+            <p><span>string</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u805" class="ax_default table_cell">
+          <img id="u805_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u805_text" class="text ">
+            <p><span>必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u806" class="ax_default table_cell">
+          <img id="u806_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u806_text" class="text ">
+            <p><span>搜尋起始時間(GMT+8)</span></p><p><span>yyyy-MM-ddTHH</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u807" class="ax_default table_cell">
+          <img id="u807_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u807_text" class="text ">
+            <p><span>end_time</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u808" class="ax_default table_cell">
+          <img id="u808_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u808_text" class="text ">
+            <p><span>string</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u809" class="ax_default table_cell">
+          <img id="u809_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u809_text" class="text ">
+            <p><span>必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u810" class="ax_default table_cell">
+          <img id="u810_img" class="img " src="images/2_玩家登出/u299.png"/>
+          <div id="u810_text" class="text ">
+            <p><span>搜尋結束時間(GMT+8)</span></p><p><span>yyyy-MM-ddTHH</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u811" class="ax_default _三级标题">
+        <div id="u811_div" class=""></div>
+        <div id="u811_text" class="text ">
+          <p><span>Request</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u812" class="ax_default _三级标题">
+        <div id="u812_div" class=""></div>
+        <div id="u812_text" class="text ">
+          <p><span>Response</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u813" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u814" class="ax_default table_cell">
+          <img id="u814_img" class="img " src="images/9_取得注單統計_小時_/u814.png"/>
+          <div id="u814_text" class="text ">
+            <p><span>參數</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u815" class="ax_default table_cell">
+          <img id="u815_img" class="img " src="images/9_取得注單統計_小時_/u815.png"/>
+          <div id="u815_text" class="text ">
+            <p><span>類型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u816" class="ax_default table_cell">
+          <img id="u816_img" class="img " src="images/1_建立玩家/u248.png"/>
+          <div id="u816_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u817" class="ax_default table_cell">
+          <img id="u817_img" class="img " src="images/9_取得注單統計_小時_/u817.png"/>
+          <div id="u817_text" class="text ">
+            <p><span>bet_amount</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u818" class="ax_default table_cell">
+          <img id="u818_img" class="img " src="images/9_取得注單統計_小時_/u818.png"/>
+          <div id="u818_text" class="text ">
+            <p><span>numeric</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u819" class="ax_default table_cell">
+          <img id="u819_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u819_text" class="text ">
+            <p><span>總投注總金額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u820" class="ax_default table_cell">
+          <img id="u820_img" class="img " src="images/9_取得注單統計_小時_/u817.png"/>
+          <div id="u820_text" class="text ">
+            <p><span>bet_valid_amount</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u821" class="ax_default table_cell">
+          <img id="u821_img" class="img " src="images/9_取得注單統計_小時_/u818.png"/>
+          <div id="u821_text" class="text ">
+            <p><span>numeric</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u822" class="ax_default table_cell">
+          <img id="u822_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u822_text" class="text ">
+            <p><span>有效投注總金額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u823" class="ax_default table_cell">
+          <img id="u823_img" class="img " src="images/9_取得注單統計_小時_/u817.png"/>
+          <div id="u823_text" class="text ">
+            <p><span>pay_off_amount</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u824" class="ax_default table_cell">
+          <img id="u824_img" class="img " src="images/9_取得注單統計_小時_/u818.png"/>
+          <div id="u824_text" class="text ">
+            <p><span>numeric</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u825" class="ax_default table_cell">
+          <img id="u825_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u825_text" class="text ">
+            <p><span>派彩金額(純贏分)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u826" class="ax_default table_cell">
+          <img id="u826_img" class="img " src="images/9_取得注單統計_小時_/u817.png"/>
+          <div id="u826_text" class="text ">
+            <p><span>jp_win</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u827" class="ax_default table_cell">
+          <img id="u827_img" class="img " src="images/9_取得注單統計_小時_/u818.png"/>
+          <div id="u827_text" class="text ">
+            <p><span>numeric</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u828" class="ax_default table_cell">
+          <img id="u828_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u828_text" class="text ">
+            <p><span>彩金獲得金額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u829" class="ax_default table_cell">
+          <img id="u829_img" class="img " src="images/9_取得注單統計_小時_/u829.png"/>
+          <div id="u829_text" class="text ">
+            <p><span>Bet_quantity</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u830" class="ax_default table_cell">
+          <img id="u830_img" class="img " src="images/9_取得注單統計_小時_/u830.png"/>
+          <div id="u830_text" class="text ">
+            <p><span>int</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u831" class="ax_default table_cell">
+          <img id="u831_img" class="img " src="images/2_玩家登出/u299.png"/>
+          <div id="u831_text" class="text ">
+            <p><span>注單數量</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u832" class="ax_default _三级标题">
+        <div id="u832_div" class=""></div>
+        <div id="u832_text" class="text ">
+          <p><span>Code</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u833" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u834" class="ax_default table_cell">
+          <img id="u834_img" class="img " src="images/5_取款/u513.png"/>
+          <div id="u834_text" class="text ">
+            <p><span>情境</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u835" class="ax_default table_cell">
+          <img id="u835_img" class="img " src="images/5_取款/u514.png"/>
+          <div id="u835_text" class="text ">
+            <p><span>code</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u836" class="ax_default table_cell">
+          <img id="u836_img" class="img " src="images/4_存款/u440.png"/>
+          <div id="u836_text" class="text ">
+            <p><span>message</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u837" class="ax_default table_cell">
+          <img id="u837_img" class="img " src="images/header_sign/u18.png"/>
+          <div id="u837_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u838" class="ax_default table_cell">
+          <img id="u838_img" class="img " src="images/5_取款/u517.png"/>
+          <div id="u838_text" class="text ">
+            <p><span>參數皆正確</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u839" class="ax_default table_cell">
+          <img id="u839_img" class="img " src="images/5_取款/u518.png"/>
+          <div id="u839_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u840" class="ax_default table_cell">
+          <img id="u840_img" class="img " src="images/4_存款/u444.png"/>
+          <div id="u840_text" class="text ">
+            <p><span>Success</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u841" class="ax_default table_cell">
+          <img id="u841_img" class="img " src="images/header_sign/u21.png"/>
+          <div id="u841_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u842" class="ax_default table_cell">
+          <img id="u842_img" class="img " src="images/5_取款/u521.png"/>
+          <div id="u842_text" class="text ">
+            <p><span>結束時間小於起始時間</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u843" class="ax_default table_cell">
+          <img id="u843_img" class="img " src="images/5_取款/u522.png"/>
+          <div id="u843_text" class="text ">
+            <p><span>9001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u844" class="ax_default table_cell">
+          <img id="u844_img" class="img " src="images/4_存款/u448.png"/>
+          <div id="u844_text" class="text ">
+            <p><span>Parameter is incorrect</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u845" class="ax_default table_cell">
+          <img id="u845_img" class="img " src="images/回傳格式/u102.png"/>
+          <div id="u845_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u846" class="ax_default table_cell">
+          <img id="u846_img" class="img " src="images/5_取款/u517.png"/>
+          <div id="u846_text" class="text ">
+            <p><span>參數錯誤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u847" class="ax_default table_cell">
+          <img id="u847_img" class="img " src="images/5_取款/u518.png"/>
+          <div id="u847_text" class="text ">
+            <p><span>9001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u848" class="ax_default table_cell">
+          <img id="u848_img" class="img " src="images/4_存款/u444.png"/>
+          <div id="u848_text" class="text ">
+            <p><span>Parameter is incorrect</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u849" class="ax_default table_cell">
+          <img id="u849_img" class="img " src="images/header_sign/u21.png"/>
+          <div id="u849_text" class="text ">
+            <p><span>必填參數未傳or 傳Null or錯誤格式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u850" class="ax_default table_cell">
+          <img id="u850_img" class="img " src="images/5_取款/u537.png"/>
+          <div id="u850_text" class="text ">
+            <p><span>加密錯誤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u851" class="ax_default table_cell">
+          <img id="u851_img" class="img " src="images/5_取款/u538.png"/>
+          <div id="u851_text" class="text ">
+            <p><span>1002</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u852" class="ax_default table_cell">
+          <img id="u852_img" class="img " src="images/4_存款/u460.png"/>
+          <div id="u852_text" class="text ">
+            <p><span>Sign invalid</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u853" class="ax_default table_cell">
+          <img id="u853_img" class="img " src="images/1_建立玩家/u286.png"/>
+          <div id="u853_text" class="text ">
+            <p><span>sign錯誤</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u854" class="ax_default box_2">
+        <div id="u854_div" class=""></div>
+        <div id="u854_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u855" class="ax_default _文本段落">
+        <div id="u855_div" class=""></div>
+        <div id="u855_text" class="text ">
+          <p><span>{</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;data&quot;: {</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;bet_amount&quot;: 10,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;bet_valid_amount&quot;: 10,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;pay_off_amount&quot;: 5,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;Bet_quantity&quot;: &quot;100&quot;</span></p><p><span>&nbsp;&nbsp;&nbsp; },</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;status&quot;: {</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;code&quot;: &quot;1&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;message&quot;: &quot;success&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;timestamp&quot;: 1603436917</span></p><p><span>&nbsp;&nbsp;&nbsp; }</span></p><p><span>}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u856" class="ax_default _三级标题">
+        <div id="u856_div" class=""></div>
+        <div id="u856_text" class="text ">
+          <p><span>*統計每小時所有注單</span></p><p><span>*bet_time投注時間搜尋</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u857" class="ax_default _三级标题">
+        <div id="u857_div" class=""></div>
+        <div id="u857_text" class="text ">
+          <p><span>URL:{API域名}/api/betlog/betlog_total</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

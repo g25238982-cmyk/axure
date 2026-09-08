@@ -1,0 +1,665 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>5.取款</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/5_取款/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/5_取款/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u464" class="ax_default _二级标题">
+        <div id="u464_div" class=""></div>
+        <div id="u464_text" class="text ">
+          <p><span>取款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u465" class="ax_default line">
+        <img id="u465_img" class="img " src="images/更新項目/u1.svg"/>
+        <div id="u465_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u466" class="ax_default _三级标题">
+        <div id="u466_div" class=""></div>
+        <div id="u466_text" class="text ">
+          <p><span>POST</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u467" class="ax_default _三级标题">
+        <div id="u467_div" class=""></div>
+        <div id="u467_text" class="text ">
+          <p><span>＊不可在線取款-玩家若在遊戲中執行取款時，需將玩家登出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u468" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u469" class="ax_default table_cell">
+          <img id="u469_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u469_text" class="text ">
+            <p><span>參數</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u470" class="ax_default table_cell">
+          <img id="u470_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u470_text" class="text ">
+            <p><span>類型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u471" class="ax_default table_cell">
+          <img id="u471_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u471_text" class="text ">
+            <p><span>是否必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u472" class="ax_default table_cell">
+          <img id="u472_img" class="img " src="images/1_建立玩家/u248.png"/>
+          <div id="u472_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u473" class="ax_default table_cell">
+          <img id="u473_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u473_text" class="text ">
+            <p><span>account</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u474" class="ax_default table_cell">
+          <img id="u474_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u474_text" class="text ">
+            <p><span>string(4,20)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u475" class="ax_default table_cell">
+          <img id="u475_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u475_text" class="text ">
+            <p><span>必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u476" class="ax_default table_cell">
+          <img id="u476_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u476_text" class="text ">
+            <p><span>遊戲帳號</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u477" class="ax_default table_cell">
+          <img id="u477_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u477_text" class="text ">
+            <p><span>transaction_id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u478" class="ax_default table_cell">
+          <img id="u478_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u478_text" class="text ">
+            <p><span>string(10,35)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u479" class="ax_default table_cell">
+          <img id="u479_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u479_text" class="text ">
+            <p><span>必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u480" class="ax_default table_cell">
+          <img id="u480_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u480_text" class="text ">
+            <p><span>交易代碼需要是唯一值(允許字元:a-z A-Z 0-9 _-)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u481" class="ax_default table_cell">
+          <img id="u481_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u481_text" class="text ">
+            <p><span>amount</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u482" class="ax_default table_cell">
+          <img id="u482_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u482_text" class="text ">
+            <p><span>number</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u483" class="ax_default table_cell">
+          <img id="u483_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u483_text" class="text ">
+            <p><span>必填</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u484" class="ax_default table_cell">
+          <img id="u484_img" class="img " src="images/2_玩家登出/u299.png"/>
+          <div id="u484_text" class="text ">
+            <p><span>交易金額最少需允許小數點後2位</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u485" class="ax_default _三级标题">
+        <div id="u485_div" class=""></div>
+        <div id="u485_text" class="text ">
+          <p><span>Request</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u486" class="ax_default _三级标题">
+        <div id="u486_div" class=""></div>
+        <div id="u486_text" class="text ">
+          <p><span>Response</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u487" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u488" class="ax_default table_cell">
+          <img id="u488_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u488_text" class="text ">
+            <p><span>參數</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u489" class="ax_default table_cell">
+          <img id="u489_img" class="img " src="images/header_sign/u16.png"/>
+          <div id="u489_text" class="text ">
+            <p><span>類型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u490" class="ax_default table_cell">
+          <img id="u490_img" class="img " src="images/1_建立玩家/u248.png"/>
+          <div id="u490_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u491" class="ax_default table_cell">
+          <img id="u491_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u491_text" class="text ">
+            <p><span>transaction_id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u492" class="ax_default table_cell">
+          <img id="u492_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u492_text" class="text ">
+            <p><span>string(10,35)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u493" class="ax_default table_cell">
+          <img id="u493_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u493_text" class="text ">
+            <p><span>交易代碼與Request相同的transaction_id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u494" class="ax_default table_cell">
+          <img id="u494_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u494_text" class="text ">
+            <p><span>account</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u495" class="ax_default table_cell">
+          <img id="u495_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u495_text" class="text ">
+            <p><span>string(4,20)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u496" class="ax_default table_cell">
+          <img id="u496_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u496_text" class="text ">
+            <p><span>遊戲帳號</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u497" class="ax_default table_cell">
+          <img id="u497_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u497_text" class="text ">
+            <p><span>amount</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u498" class="ax_default table_cell">
+          <img id="u498_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u498_text" class="text ">
+            <p><span>number</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u499" class="ax_default table_cell">
+          <img id="u499_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u499_text" class="text ">
+            <p><span>交易金額(允許小數點後2位)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u500" class="ax_default table_cell">
+          <img id="u500_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u500_text" class="text ">
+            <p><span>currency</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u501" class="ax_default table_cell">
+          <img id="u501_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u501_text" class="text ">
+            <p><span>string</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u502" class="ax_default table_cell">
+          <img id="u502_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u502_text" class="text ">
+            <p><span>幣別 (使用ISO 4217標準)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u503" class="ax_default table_cell">
+          <img id="u503_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u503_text" class="text ">
+            <p><span>before_balance</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u504" class="ax_default table_cell">
+          <img id="u504_img" class="img " src="images/1_建立玩家/u249.png"/>
+          <div id="u504_text" class="text ">
+            <p><span>number</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u505" class="ax_default table_cell">
+          <img id="u505_img" class="img " src="images/1_建立玩家/u252.png"/>
+          <div id="u505_text" class="text ">
+            <p><span>轉帳前錢包餘額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u506" class="ax_default table_cell">
+          <img id="u506_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u506_text" class="text ">
+            <p><span>after_balance</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u507" class="ax_default table_cell">
+          <img id="u507_img" class="img " src="images/2_玩家登出/u296.png"/>
+          <div id="u507_text" class="text ">
+            <p><span>number</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u508" class="ax_default table_cell">
+          <img id="u508_img" class="img " src="images/2_玩家登出/u299.png"/>
+          <div id="u508_text" class="text ">
+            <p><span>轉帳後錢包餘額</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u509" class="ax_default box_2">
+        <div id="u509_div" class=""></div>
+        <div id="u509_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u510" class="ax_default _文本段落">
+        <div id="u510_div" class=""></div>
+        <div id="u510_text" class="text ">
+          <p><span>{</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;data&quot;: {</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;transaction_id&quot;: &quot;1f83a95d-fd1a-4712-8d07-f51304392a4b&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;account&quot;: &quot;player1&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;amount&quot;: 10.00,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;currency&quot;: &quot;THB&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;before_balance&quot;: 00.00,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;after_balance&quot;: 10.00</span></p><p><span>&nbsp;&nbsp;&nbsp; },</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;status&quot;: {</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;code&quot;: &quot;1&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;message&quot;: &quot;success&quot;,</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &quot;timestamp&quot;: 1603436917</span></p><p><span>&nbsp;&nbsp;&nbsp; }</span></p><p><span>}</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u511" class="ax_default _三级标题">
+        <div id="u511_div" class=""></div>
+        <div id="u511_text" class="text ">
+          <p><span>Code</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u512" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u513" class="ax_default table_cell">
+          <img id="u513_img" class="img " src="images/5_取款/u513.png"/>
+          <div id="u513_text" class="text ">
+            <p><span>情境</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u514" class="ax_default table_cell">
+          <img id="u514_img" class="img " src="images/5_取款/u514.png"/>
+          <div id="u514_text" class="text ">
+            <p><span>code</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u515" class="ax_default table_cell">
+          <img id="u515_img" class="img " src="images/4_存款/u440.png"/>
+          <div id="u515_text" class="text ">
+            <p><span>message</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u516" class="ax_default table_cell">
+          <img id="u516_img" class="img " src="images/header_sign/u18.png"/>
+          <div id="u516_text" class="text ">
+            <p><span>說明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u517" class="ax_default table_cell">
+          <img id="u517_img" class="img " src="images/5_取款/u517.png"/>
+          <div id="u517_text" class="text ">
+            <p><span>參數皆正確</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u518" class="ax_default table_cell">
+          <img id="u518_img" class="img " src="images/5_取款/u518.png"/>
+          <div id="u518_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u519" class="ax_default table_cell">
+          <img id="u519_img" class="img " src="images/4_存款/u444.png"/>
+          <div id="u519_text" class="text ">
+            <p><span>Success</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u520" class="ax_default table_cell">
+          <img id="u520_img" class="img " src="images/header_sign/u21.png"/>
+          <div id="u520_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u521" class="ax_default table_cell">
+          <img id="u521_img" class="img " src="images/5_取款/u521.png"/>
+          <div id="u521_text" class="text ">
+            <p><span>重複的transaction_id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u522" class="ax_default table_cell">
+          <img id="u522_img" class="img " src="images/5_取款/u522.png"/>
+          <div id="u522_text" class="text ">
+            <p><span>4001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u523" class="ax_default table_cell">
+          <img id="u523_img" class="img " src="images/4_存款/u448.png"/>
+          <div id="u523_text" class="text ">
+            <p><span>Transaction ID duplicated</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u524" class="ax_default table_cell">
+          <img id="u524_img" class="img " src="images/回傳格式/u102.png"/>
+          <div id="u524_text" class="text ">
+            <p><span>交易代碼重複</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u525" class="ax_default table_cell">
+          <img id="u525_img" class="img " src="images/5_取款/u521.png"/>
+          <div id="u525_text" class="text ">
+            <p><span>金額有誤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u526" class="ax_default table_cell">
+          <img id="u526_img" class="img " src="images/5_取款/u522.png"/>
+          <div id="u526_text" class="text ">
+            <p><span>4002</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u527" class="ax_default table_cell">
+          <img id="u527_img" class="img " src="images/4_存款/u448.png"/>
+          <div id="u527_text" class="text ">
+            <p><span>Amount is incorrect</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u528" class="ax_default table_cell">
+          <img id="u528_img" class="img " src="images/回傳格式/u102.png"/>
+          <div id="u528_text" class="text ">
+            <p><span>金額為0或負數或不合格式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u529" class="ax_default table_cell">
+          <img id="u529_img" class="img " src="images/5_取款/u521.png"/>
+          <div id="u529_text" class="text ">
+            <p><span>取款金額大於錢包餘額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u530" class="ax_default table_cell">
+          <img id="u530_img" class="img " src="images/5_取款/u522.png"/>
+          <div id="u530_text" class="text ">
+            <p><span>4003</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u531" class="ax_default table_cell">
+          <img id="u531_img" class="img " src="images/4_存款/u448.png"/>
+          <div id="u531_text" class="text ">
+            <p><span>Insufficient balance</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u532" class="ax_default table_cell">
+          <img id="u532_img" class="img " src="images/回傳格式/u102.png"/>
+          <div id="u532_text" class="text ">
+            <p><span>餘額不足，取出大於目前錢包餘額的金額</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u533" class="ax_default table_cell">
+          <img id="u533_img" class="img " src="images/5_取款/u517.png"/>
+          <div id="u533_text" class="text ">
+            <p><span>參數錯誤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u534" class="ax_default table_cell">
+          <img id="u534_img" class="img " src="images/5_取款/u518.png"/>
+          <div id="u534_text" class="text ">
+            <p><span>9001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u535" class="ax_default table_cell">
+          <img id="u535_img" class="img " src="images/4_存款/u444.png"/>
+          <div id="u535_text" class="text ">
+            <p><span>Parameter is incorrect</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u536" class="ax_default table_cell">
+          <img id="u536_img" class="img " src="images/header_sign/u21.png"/>
+          <div id="u536_text" class="text ">
+            <p><span>必填參數未傳or 傳Null or錯誤格式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u537" class="ax_default table_cell">
+          <img id="u537_img" class="img " src="images/5_取款/u537.png"/>
+          <div id="u537_text" class="text ">
+            <p><span>加密錯誤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u538" class="ax_default table_cell">
+          <img id="u538_img" class="img " src="images/5_取款/u538.png"/>
+          <div id="u538_text" class="text ">
+            <p><span>1002</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u539" class="ax_default table_cell">
+          <img id="u539_img" class="img " src="images/4_存款/u460.png"/>
+          <div id="u539_text" class="text ">
+            <p><span>Sign invalid</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u540" class="ax_default table_cell">
+          <img id="u540_img" class="img " src="images/1_建立玩家/u286.png"/>
+          <div id="u540_text" class="text ">
+            <p><span>sign錯誤</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u541" class="ax_default _三级标题">
+        <div id="u541_div" class=""></div>
+        <div id="u541_text" class="text ">
+          <p><span>URL:{API域名}/api/player/withdraw</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
