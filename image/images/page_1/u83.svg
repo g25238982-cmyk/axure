@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="12px" viewBox="410 1823.5  12 12" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 410.5 1824  L 421.5 1824  L 421.5 1835  L 410.5 1835  L 410.5 1824  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
-  <path d="M 410.5 1824  L 421.5 1824  L 421.5 1835  L 410.5 1835  L 410.5 1824  Z " stroke-width="1" stroke="#797979" fill="none" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -137 -1957 )">
+    <path d="M 137 1957  L 201 1957  L 201 2021  L 137 2021  L 137 1957  " fill-rule="nonzero" fill="#cccccc" stroke="none" />
+    <path d="M 141 1961  L 197 1961  L 197 2017  L 141 2017  L 141 1961  " fill-rule="nonzero" fill="#ffffff" stroke="none" />
+    <path d="M 175.08 1976.2  C 172.392 1976.2  170.28 1974.088  170.28 1971.4  C 170.28 1968.712  172.392 1966.6  175.08 1966.6  C 177.768 1966.6  179.88 1968.712  179.88 1971.4  C 179.88 1974.088  177.768 1976.2  175.08 1976.2  " fill-rule="nonzero" fill="#cccccc" stroke="none" />
+    <path d="M 143 2016  L 143 1986.85  L 156.25 1973.6  L 174.8 1984.2  L 185.4 1981.55  L 196 1984.2  L 196 2016  L 143 2016  " fill-rule="nonzero" fill="#169bd5" stroke="none" />
+  </g>
 </svg>
